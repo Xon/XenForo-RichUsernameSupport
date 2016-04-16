@@ -24,12 +24,12 @@
   <templates/>
   <public_template_modifications>
     <modification template="member_card" modification_key="sv_richusername_member_card" description="" execution_order="10" enabled="1" action="str_replace">
-      <find><![CDATA[<xen:username user="$user" class="NoOverlay" />]]></find>
-      <replace><![CDATA[<xen:username user="$user" class="NoOverlay" itemprop="name" rich="true"/>]]></replace>
+      <find><![CDATA[<xen:username user="$user" class="NoOverlay"]]></find>
+      <replace><![CDATA[<xen:username user="$user" class="NoOverlay" itemprop="name" rich="true"]]></replace>
     </modification>
     <modification template="thread_list_item" modification_key="sv_richusername_support_thread_list_item" description="" execution_order="10" enabled="1" action="str_replace">
-      <find><![CDATA[<xen:username user="$thread.lastPostInfo" />]]></find>
-      <replace><![CDATA[<xen:username user="$thread.lastPostInfo" rich="true"/>]]></replace>
+      <find><![CDATA[<xen:username user="$thread.lastPostInfo"]]></find>
+      <replace><![CDATA[<xen:username user="$thread.lastPostInfo" rich="true"]]></replace>
     </modification>
   </public_template_modifications>
   <bb_code_media_sites/>
